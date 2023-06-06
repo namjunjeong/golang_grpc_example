@@ -7,7 +7,7 @@
 > ## 02_bidirectional-streaming
 >bidirectional streaming gRPC example<br>
 >send data from sample data asynchronously and receive result asynchronously<br>
->send two int32 data and receive multiplied answer
+>send two int32 data and receive multiplied answer<br>
 >go클라이언트-python서버간 이미지 양방향 통신은 다음 링크 참조 => https://github.com/namjunjeong/grpc_video_stream
 
 > ## 03_clientstreaming

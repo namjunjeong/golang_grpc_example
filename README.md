@@ -10,9 +10,9 @@
 >send two int32 data and receive multiplied answer
 
 > ## 03_clientstreaming
-> client streaming gRPC example
+> client streaming gRPC example<br>
 > send int32 random value(1~10) 10 times and receive multiplied result<br>
 
 > ## 04_serverstreaming
-> server streaming gRPC sxample
+> server streaming gRPC sxample<br>
 > send inputted data and receive time table from 1 to 9

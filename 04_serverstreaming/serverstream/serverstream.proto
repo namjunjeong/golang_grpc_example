@@ -1,0 +1,17 @@
+// protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative *.proto
+syntax = "proto3";
+
+option go_package = "./serverstream";
+
+service Serverstream {
+   rpc Multiply(Req) returns (stream Res) {}
+}
+
+message Req {
+  int32 value = 1;
+}
+
+message Res {
+  int32 multiplier = 1;
+  int32 answer = 2;
+}

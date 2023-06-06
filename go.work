@@ -1,0 +1,8 @@
+go 1.20
+
+use (
+	./01_hello_grpc
+	./02_bidirectional-streaming
+	./03_clientstreaming
+	./04_serverstreaming
+)
